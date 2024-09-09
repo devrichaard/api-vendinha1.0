@@ -22,5 +22,5 @@ public interface ProdutosRepository extends JpaRepository<Produtos, Long> {
      * @param nome Nome do usuário a ser pesquisado.
      * @return Um Optional contendo o usuário encontrado, se existir; caso contrário, um Optional vazio.
      */
-    Optional<Produtos> findByName(String nome);
+    Optional<Produtos> findByNome(String nome);
 }
